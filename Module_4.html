@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3</title>
+    <link rel="stylesheet" href="Module_3_navigation.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        This is header. Generally it contains navigation bar.
+        <p>
+            This is simple menu
+        </p>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <p>
+            This is mega menu
+        </p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                    <ul class="drop_down">
+                        <li>
+                            <a href="home.html">Home</a>
+                            <ul class="drop_down">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="about.html">About Me</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        This is main tag. Contents of a webpage generally lies here. It also contains articles.
+        <article>
+            <header>
+                <h2>
+                    This is header of article tag.
+                </h2>
+                <p>
+                    Learned On: <time datetime="2025-01-05">5th January, 2025</time>
+                </p>
+            </header>
+            <figure>
+                <img src="Images/2.jpg" alt="Natural Beauty" width="600px" height="400px">
+                <figcaption>View of lake on a sunny day</figcaption>
+            </figure>
+            <p>
+                This is an article.
+            </p>
+            <section>
+                This is a section of an article. It also contains paragraph.
+            </section>
+            <footer>
+                This is footer of article tag.
+            </footer>
+        </article>
+    </main>
+    <p>
+        Audio Tag: To add audio in webpage
+    </p>
+    <audio controls src="Audio/Hasbi Rabbi.mp3"></audio>
+    <p>
+        Video Tag: To add video in webpage
+    </p>
+    <video height="400px" width="600px" controls src="Video/Syria.mp4"></video>
+    <p>
+        Iframe Tag: To add video from external source in webpage
+    </p>
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/IbbBmxdEQ_Q"
+        title="Nasheed- Akhi Anta Hurrun | أخي أنت حرٌ | My Brother, You Are Free" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    <p>
+        Please Fill up the form
+    </p>
+    <form>
+        <label for="name">
+            Your name:
+            <input type="text" id="name" placeholder="Your name">
+        </label>
+        <fieldset>
+            <legend>
+                Your Information
+            </legend>
+            <label for="name">
+                Your name:
+                <input type="text" id="name" placeholder="Your name" required>
+            </label>
+            <br>
+            <label for="email">
+                Your email:
+                <input type="email" id="email" placeholder="Your email" required>
+            </label>
+            <br>
+            <label for="phone">
+                Your phone number:
+                <input type="number" id="phone" placeholder="Your phone number" required>
+            </label>
+            <p>
+                Gender:
+            </p>
+            <label for="male">
+                <input type="radio" name="gender" id="male">
+                Male
+            </label>
+            <br>
+            <label for="female">
+                <input type="radio" name="gender" id="female">
+                Female
+            </label>
+            <p>
+                Habits
+            </p>
+            <label for="reading">
+                <input type="checkbox" id="reading" name="habits">
+                Reading
+            </label>
+            <br>
+            <label for="football">
+                <input type="checkbox" id="football" name="habits">
+                Playing Football
+            </label>
+            <br>
+            <label for="feedback">
+                Please give your feedback:
+                <br>
+                <textarea id="feedback" rows="4" cols="50" placeholder="Your feedback"></textarea>
+            </label>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <h3>
+        Table Tag Learning
+    </h3>
+    <table>
+        <caption>
+            Employee Salary Data Sheet
+        </caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft Founder</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple Founder</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry page</td>
+                <td>Google Founder</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Facebook Founder</td>
+                <td>$1300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee: 4</td>
+            </tr>
+        </tfoot>
+    </table>
+    <footer>
+        <p>
+            <small>
+                This is footer. Contact information, copyright disclaimer, address etc. generally lies here.
+            </small>
+        </p>
+    </footer>
+</body>
+
+</html>
