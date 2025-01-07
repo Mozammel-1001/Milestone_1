@@ -1,0 +1,44 @@
+.parent1{
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    height: 150px;
+    /* align-items: start; */
+    align-items: center;
+    /* align-items: end; */
+    /* flex-direction: column; */
+    flex-direction: row-reverse;
+}
+.child1{
+    border: 2px solid cyan;
+    background: skyblue;
+    font-size: 28px;
+    padding: 20px;
+    margin: 10px 0;
+    display: inline;
+}
+
+/* Inline element can take top bottom margin & width command properly. But block element can do it properly. If we use flex display property for parent than it makes it child elements inline which can take top bottom margin & width command properly. To do this commands should be given from parent.*/
+
+.parent2{
+    padding: 10px;
+    background-color: lightgreen;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.child2{
+    border: 2px solid cyan;
+    background: skyblue;
+    font-size: 28px;
+    padding: 20px;
+    margin: 10px 0;
+    display: inline;
+}
