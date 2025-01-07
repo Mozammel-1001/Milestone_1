@@ -25,24 +25,7 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
-}
-
-.btn_secondary {
-    margin-right: 30px;
-}
-
-.download {
-    color: white;
-    text-decoration: none;
-}
-
-.contact {
-    color: #FD6E0A;
-    text-decoration: none;
-}
-.btn{
-    background-color: white;
-    border: 2px solid #FD6E0A;
+    cursor: pointer;
 }
 
 * {
@@ -121,4 +104,16 @@ nav ul {
 
 .banner_profile {
     width: 584px;
+}
+
+/* Button Style */
+
+.download {
+    margin-right: 30px;
+}
+
+.contact {
+    color: #FD6E0A;
+    background-color: white;
+    border: 2px solid #FD6E0A;
 }
