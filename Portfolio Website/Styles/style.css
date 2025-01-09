@@ -28,23 +28,33 @@
     cursor: pointer;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+.section_title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
 }
 
-/* Header Style */
-body {
+.section_description {
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary_bg {
     background-color: #FFF8F3;
 }
 
+/* Main Style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header Style */
 .header {
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    margin-left: 45px;
-    margin-bottom: 155px;
-    background-size: contain, 55%;
+    background-size: auto, 55%;
 }
 
 /* Nav Style */
@@ -53,7 +63,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 150px;
-    margin-top: 50px;
 }
 
 .nav_title {
@@ -97,7 +106,6 @@ nav ul {
 
 .banner_description {
     font-size: 18px;
-    font-weight: 400;
     width: 580px;
     margin-bottom: 30px;
 }
@@ -107,7 +115,6 @@ nav ul {
 }
 
 /* Button Style */
-
 .download {
     margin-right: 30px;
 }
@@ -116,4 +123,86 @@ nav ul {
     color: #FD6E0A;
     background-color: white;
     border: 2px solid #FD6E0A;
+}
+
+/* About Style */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.about_me {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Item Style */
+.item_title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.item_description {
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+}
+
+.about_items {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Skill Style */
+.skills {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.skills .section_description {
+    padding: 0 120px;
+}
+.skill_items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: left;
+    gap: 30px;
+}
+.skill_item{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill_title{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #181818;
+}
+.skill_description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* Resume Style */
+.resume_container{
+    display: flex;
+    gap: 25px;
+}
+.resume_btn{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 115px;
+}
+.resume_title{
+    text-align: center;
+    margin-bottom: 115px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
 }
