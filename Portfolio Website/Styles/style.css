@@ -53,7 +53,7 @@ main {
 .header {
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: 35px 0, bottom right;
+    background-position: 35px 20px, bottom right;
     background-size: auto, 50%;
     padding-left: 50px;
 }
