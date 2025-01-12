@@ -442,6 +442,11 @@ nav a {
     background-color: #FFFFFF;
     padding: 24px;
     flex: 1;
+    transition: background-color 0.5s ease;
+}
+
+.pillars_card:hover {
+    background-color: #C6E4D6;
 }
 
 .card_img {
@@ -542,7 +547,8 @@ footer hr {
     width: 1120px;
     border: 1px solid rgba(14, 14, 14, 0.10);
 }
-.footer_img{
+
+.footer_img {
     display: flex;
     justify-content: center;
     gap: 25px;
